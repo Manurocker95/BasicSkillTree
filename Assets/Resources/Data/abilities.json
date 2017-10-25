@@ -1,0 +1,98 @@
+{
+  "skilltree": [
+    {
+      "ID": "Lightning",
+      "Description": "A small storm falls and does damage on a foe",
+      "Name": "Lightning",
+      "Target": "AllEnemies",
+      "Type": "Special",
+      "Damage": 100,
+      "Restore": 0,
+      "Status_effect": "none",
+      "Magic": "Electric",
+      "LevelToUnlock": 1,
+      "Evolutions": [
+        {
+          "ID": "Thunder",
+          "Description": "A big storm falls and does damage on a foe ",
+          "Name": "Thunder",
+          "Target": "AllEnemies",
+          "Type": "Special",
+          "Damage": 300,
+          "Restore": 0,
+          "Status_effect": "none",
+          "Magic": "Electric",
+          "LevelToUnlock": 3,
+          "Evolutions": []
+        },
+        {
+          "ID": "MikiPunch",
+          "Description": "A strong punch in the face. It recovers 100 HP.",
+          "Name": "Miki Punch",
+          "Target": "OneEnemy",
+          "Type": "Physical",
+          "Damage": 1500,
+          "Restore": 100,
+          "Status_effect": "none",
+          "Magic": "Awesome",
+          "LevelToUnlock": 5,
+          "Evolutions": []
+        }
+      ]
+    },
+    {
+      "ID": "Ice",
+      "Description": "Magic Ice",
+      "Name": "Ice",
+      "Target": "OneEnemy",
+      "Type": "Special",
+      "Damage": 100,
+      "Restore": 0,
+      "Magic": "Ice",
+      "Status_effect": "Freeze",
+      "LevelToUnlock": 1,
+      "Evolutions": [
+        {
+          "ID": "Ice2",
+          "Description": "Strong Ice Magic",
+          "Name": "Ice II",
+          "Target": "OneEnemy",
+          "Type": "Special",
+          "Damage": 200,
+          "Restore": 0,
+          "Status_effect": "none",
+          "Magic": "Ice",
+          "LevelToUnlock": 2,
+          "Evolutions": []
+        }
+      ]
+    },
+    {
+      "ID": "Pyro",
+      "Description": "Magic Fire",
+      "Name": "Pyro",
+      "Target": "OneEnemy",
+      "Type": "Special",
+      "Damage": 300,
+      "Restore": 0,
+      "Magic": "Fire",
+      "Status_effect": "none",
+      "LevelToUnlock": 1,
+      "Evolutions": [
+        {
+          "ID": "Pyro2",
+          "Description": "Strong Fire Magic",
+          "Name": "Pyro II",
+          "Target": "AllEnemy",
+          "Type": "Special",
+          "Damage": 2600,
+          "Restore": 0,
+          "Status_effect": "none",
+          "Magic": "Fire",
+          "LevelToUnlock": 6,
+          "Evolutions": []
+        }
+      ]
+    }
+  ]
+}
